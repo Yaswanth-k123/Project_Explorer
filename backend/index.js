@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(express.static(path.join(__dirname, 'uploads')));
 
-const mongoURL = 'mongodb://127.0.0.1:27017/dbs';
+const mongoURL = 'mongodb+srv://yaswanthk183:sh34VfOVWHSpFSuJ@cluster0.mlzfysq.mongodb.net/newdb';
 
 async function connectToDatabase() {
   try {
