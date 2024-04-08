@@ -1,0 +1,121 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center; /* Ensure vertical alignment */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+ }
+ 
+ .topbarLeft {
+  flex: 3;
+ }
+ 
+ .logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .topbarCenter {
+  flex: 5;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Distribute space evenly */
+ }
+ 
+ .search {
+  display: flex;
+  align-items: center; /* Vertically center search input and button */
+  margin-right: 20px;
+ }
+ 
+ .search input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s ease;
+ }
+ 
+ .search input[type="text"]:focus {
+  border-color: #1877f2;
+ }
+ 
+ .search button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .search button:hover {
+  background-color: #1056b3;
+ }
+ 
+ .topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Distribute space evenly */
+  color: white;
+ }
+ 
+ /* Removed .searchInput as it's redundant with .search input[type="text"] */
+ 
+ .topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+ }
+ 
+ .topbarIcons {
+  display: flex;
+ }
+ 
+ .topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+ }
+ 
+ .topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+ }
+ 
+ .topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+ }
+ 
+ .profile {
+  text-decoration: none;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+  
+ }

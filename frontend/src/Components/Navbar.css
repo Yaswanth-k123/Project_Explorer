@@ -1,0 +1,38 @@
+/* Navbar.css */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+   }
+   
+   .nav h2 {
+    margin: 0;
+   }
+   
+   .search {
+    display: flex;
+    align-items: center;
+   }
+   
+   .search input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+   }
+   
+   .search button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+   }
+   
+   .search button:hover {
+    background-color: #45a049;
+   }
+   

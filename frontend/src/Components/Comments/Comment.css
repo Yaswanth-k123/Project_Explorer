@@ -1,0 +1,49 @@
+/* Container for all comments */
+.comments-container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: black;
+    margin-top:40px;
+   }
+   
+   /* Individual comment */
+   .comment {
+    margin-bottom: 20px; /* Space between comments */
+    padding: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+   }
+   
+   /* Comment form */
+   .comment form {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    margin-top: 20px; /* Space above the form */
+   }
+   
+   .comment input[type="text"] {
+    flex-grow: 1; /* Take up available space */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+   }
+   
+   .comment button {
+    padding: 10px 20px;
+    background-color: #1877f2; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+   }
+   
+   .comment button:hover {
+    background-color: #1056b3; /* Darker blue on hover */
+   }
+   
